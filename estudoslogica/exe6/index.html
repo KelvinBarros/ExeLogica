@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comissão</title>
+
+    <style>
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Descubra qual seu pagamento ao final do mes</h1>
+
+    <label for="sal">Salario fixo:</label>
+    <input type="number" name="sal" id="sal"><br>
+    
+    <label for="total">Valor total vendido:</label>
+    <input type="number" name="total" id="total"> <br>
+
+    
+
+    <input type="button" value="Calcular" onclick="calc()">
+
+    <div id="res">Valor esperado:</div>
+
+    <script src="comissao.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular area</title>
+
+    <style>
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Informe os valores para calcular a area do retangulo</h1>
+    <label for="base">Base (b):</label>
+    <input type="number" name="base" id="base"><br>
+    
+    <label for="altura">Altura (h):</label>
+    <input type="number" name="altura" id="altura"><br>
+
+    <input type="button" value="Calcular" onclick="calcular()">
+    
+    <div id="res">Resultado</div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

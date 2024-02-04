@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste</title>
+
+    <style>
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Novo reajuste de salario</h1>
+    <p>Insira abaixo seu salario bruto para verificar o novo valor:</p>
+
+    <label for="sal">Salario atual:</label>
+    <input type="number" name="sal" id="sal">
+    <input type="button" value="Calcular" onclick="calcular()">
+
+    <div id="res">Confira o novo valor:</div>
+
+
+    <script src="reajuste.js"></script>
+</body>
+</html>

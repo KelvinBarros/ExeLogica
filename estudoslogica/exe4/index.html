@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleição</title>
+
+    <style>
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Descubra a porcentagem de votos</h1>
+
+    <label for="total">Total de votos:</label>
+    <input type="number" name="total" id="total"><br>
+
+    <label for="branco">Votos em branco:</label>
+    <input type="number" name="branco" id="branco"><br>
+
+    <label for="nulo">Votos nulos:</label>
+    <input type="number" name="nulo" id="nulo"><br>
+
+    
+
+    <input type="button" value="Calcular porcentagem" onclick="porcentagem()">
+
+    <div id="res">O resultado aparecerá aqui:</div>
+    
+    <script src="porcentagem.js"></script>
+</body>
+</html>
