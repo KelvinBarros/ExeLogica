@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprovado ou não</title>
+
+    <style>
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Insira os valores das notas para saber se passou </h1>
+
+    <label for="pro1">Prova 1:</label>
+    <input type="number" name="pro1" id="pro1"> <br>
+
+    <label for="pro2">Prova 2:</label>
+    <input type="number" name="pro2" id="pro2">
+
+    <input type="button" value="Calcular" onclick="calc()">
+
+    <div id="res">Resultado</div>
+
+    <script src="prova.js"></script>
+</body>
+</html>
