@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Pradesco</title>
+
+    <style>
+
+        input{
+            margin: 5px
+        }
+
+        #valores{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coloca os dados abaixo</h1>
+
+    <label for="nconta">Nº da conta:</label>
+    <input type="number" name="nconta" id="nconta">
+
+    <div id="valores">
+        
+        <p>Informe os valores</p>
+
+        <label for="saldo">Saldo:</label>
+        <input type="number" name="saldo" id="saldo"><br>
+
+        <label for="gastos">Gastos:</label>
+        <input type="number" name="gastos" id="gastos"><br>
+
+        <label for="entrada">Entrada:</label>
+        <input type="number" name="entrada" id="entrada"><br>
+
+        
+
+        <div id="res"></div>
+
+
+        <script src="contabanco.js"></script>
+    </div>
+    
+    <input type="button" value="Verificar" onclick="calcular()">
+</body>
+</html>
