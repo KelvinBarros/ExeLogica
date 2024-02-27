@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+
+    <style>
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificar estoque</h1>
+
+    <label for="estoque">Estoque atual:</label>
+    <input type="number" name="esto" id="esto"><br>
+
+    <label for="max">Estoque maximo</label>
+    <input type="number" name="max" id="max"><br>
+
+    <label for="min">Estoque minimo</label>
+    <input type="number" name="min" id="min"> <br>
+
+    <input type="button" value="Verificar" onclick="calcular()">
+
+    <div id="res"></div>
+
+
+    <script src="mediaestoque.js"></script>
+</body>
+</html>

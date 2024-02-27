@@ -26,23 +26,26 @@
         
         <p>Informe os valores</p>
 
-        <label for="saldo">Saldo:</label>
-        <input type="number" name="saldo" id="saldo"><br>
+        <label for="saldo">Saldo atual:</label>
+        <input type="number" name="saldo" id="saldo" required><br>
 
         <label for="gastos">Gastos:</label>
-        <input type="number" name="gastos" id="gastos"><br>
+        <input type="number" name="gastos" id="gastos" required><br>
 
         <label for="entrada">Entrada:</label>
-        <input type="number" name="entrada" id="entrada"><br>
+        <input type="number" name="entrada" id="entrada" required><br>
 
         
 
-        <div id="res"></div>
+        
 
 
         <script src="contabanco.js"></script>
     </div>
     
     <input type="button" value="Verificar" onclick="calcular()">
+    
+    <div id="res"></div>
+    <div id="res2"></div>
 </body>
 </html>
